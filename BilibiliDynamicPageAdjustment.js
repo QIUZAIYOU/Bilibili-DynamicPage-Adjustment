@@ -2,15 +2,15 @@
 // @name               哔哩哔哩（bilibili.com）动态页优化
 // @license            GPL-3.0 License
 // @namespace          https://greasyfork.org/zh-CN/scripts/40295-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-bilibili-com-%E5%8A%A8%E6%80%81%E9%A1%B5%E4%BC%98%E5%8C%96
-// @version            1.06
+// @version            1.07
 // @icon               https://www.bilibili.com/favicon.ico?v=1
 // @description        1.哔哩哔哩动态页导航样式优化。2.默认显示"投稿视频"内容。
 // @author             QIUZAIYOU
 // @match              *://t.bilibili.com/*
-// @grant              none
 // @require            https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js
 // @require            https://cdn.jsdelivr.net/npm/sweetalert2@11.3.6/dist/sweetalert2.all.min.js
 // @resource           swalStyle https://cdn.jsdelivr.net/npm/sweetalert2@11.3.6/dist/sweetalert2.min.css
+// @run-at             document-idle
 // @grant              GM_setValue
 // @grant              GM_getValue
 // @grant              GM_registerMenuCommand
