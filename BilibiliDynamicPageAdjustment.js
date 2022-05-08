@@ -53,7 +53,7 @@ $(function () {
             </div>
                   `;
         Swal.fire({
-          title: "播放页调整设置",
+          title: "动态页调整设置",
           html,
           icon: "info",
           showCloseButton: true,
