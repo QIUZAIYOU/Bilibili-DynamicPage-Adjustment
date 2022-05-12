@@ -65,7 +65,7 @@ $(function () {
           if (res.isConfirmed) {
             location.reload(true);
           } else if (res.isDenied) {
-            util.setValue("is_new_version", false);
+            util.setValue("is_new_version", true);
             location.reload(true);
           }
         });
