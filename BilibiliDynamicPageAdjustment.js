@@ -2,7 +2,7 @@
 // @name               哔哩哔哩（bilibili.com）动态页优化
 // @license            GPL-3.0 License
 // @namespace          https://greasyfork.org/zh-CN/scripts/40295-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-bilibili-com-%E5%8A%A8%E6%80%81%E9%A1%B5%E4%BC%98%E5%8C%96
-// @version            1.07
+// @version            1.08
 // @icon               https://www.bilibili.com/favicon.ico?v=1
 // @description        1.哔哩哔哩动态页导航样式优化。2.默认显示"投稿视频"内容。
 // @author             QIUZAIYOU
@@ -31,7 +31,7 @@ $(function () {
       const value = [
         {
           name: "is_new_version",
-          value: false
+          value: true
         }
       ];
       value.forEach((v) => {
