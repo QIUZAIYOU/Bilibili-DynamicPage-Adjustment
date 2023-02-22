@@ -44,7 +44,7 @@ $(function() {
         const html = `
                   <div style="font-size: 1em;">
                       <label class="player-adjustment-setting-label" style="padding-top:0!important;display: grid;grid-gap: 10px">
-                          只看视频链接：
+                          「投稿视频」链接：
                           <input id="Web-Video-Link" value="${utils.getValue('web_video_link')}" style="padding:5px;text-align: center"  >
                       </label>
             </div>
@@ -72,7 +72,7 @@ $(function() {
       });
     },
     consoleLogInformation() {
-      console.log(" " + GM.info.script.name, "\n", "脚本作者：" + GM.info.script.author, "\n", "-----------------", "\n", "只看视频链接: " + utils.getValue("web_video_link"));
+      console.log(" " + GM.info.script.name, "\n", "脚本作者：" + GM.info.script.author, "\n", "-----------------", "\n", "「投稿视频」链接: " + utils.getValue("web_video_link"));
     },
     OpenDongTai() {
       const web_video_link = utils.getValue("web_video_link");
