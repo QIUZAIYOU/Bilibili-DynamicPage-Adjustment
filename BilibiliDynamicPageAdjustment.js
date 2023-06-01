@@ -2,7 +2,7 @@
 // @name               哔哩哔哩（bilibili.com）动态页优化
 // @license            GPL-3.0 License
 // @namespace          https://greasyfork.org/zh-CN/scripts/40295-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-bilibili-com-%E5%8A%A8%E6%80%81%E9%A1%B5%E4%BC%98%E5%8C%96
-// @version            1.09
+// @version            1.10
 // @icon               https://www.bilibili.com/favicon.ico?v=1
 // @description        1.哔哩哔哩动态页导航样式优化。2.默认显示"投稿视频"内容。
 // @author             QIUZAIYOU
@@ -81,8 +81,8 @@ $(function() {
       const indexHTMLNew = /(https:\/\/t.bilibili.com\/pages\/nav\/index_new).*/i;
       const indexVoteHTML = /https:\/\/t.bilibili.com\/vote\/h5\/index\/#\/result\?vote_id=.*/i;
       const webVoteHTML = /t.bilibili.com\/h5\/dynamic\/vote#\/result\?vote_id=.*/i;
-      const indexLotteryHTML = /https:\/\/t.bilibili.com\/lottery\/h5\/index\/#\/result\?business_id=.*/i;
-      const webLotteryHTML = /https:\/\/t.bilibili.com\/lottery\/h5\/dynamic#\/result\?business_id=.*/i;
+      const indexLotteryHTML = /https:\/\/t.bilibili.com\/lottery\/h5\/index\/.*/i;
+      const webLotteryHTML = /https:\/\/t.bilibili.com\/lottery\/.*/i;
       const moreDongTai = /https:\/\/t.bilibili.com\/[0-9]+\?tab=[0-9]+/i;
       const DongTaiDetail = /https:\/\/t.bilibili.com\/[0-9]+/i;
       const DongTaiTopicDetail = /https:\/\/t.bilibili.com\/topic\/[0-9]+/i;
